@@ -1,0 +1,169 @@
+/* global CSS section */
+* {
+  margin: 0;
+  padding: 0;
+  color: #626262;
+}
+a {
+  text-decoration: none;
+  color: #626262;
+}
+.container-1 {
+  width: 85%;
+  margin: auto;
+  display: flow-root;
+}
+.container-2 {
+  width: 70%;
+  margin: auto;
+}
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* header section CSS here */
+header {
+  display: flow-root;
+}
+
+.navbar {
+  width: 100%;
+  margin: 50px 0px;
+}
+
+.logo {
+  float: left;
+}
+
+.menus {
+  float: right;
+}
+.menus ul li {
+  margin-left: auto;
+}
+.menus ul li {
+  margin-left: 40px;
+  list-style: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+}
+
+/* MAIN-POST section CSS here */
+.main_post {
+  display: flow-root;
+  margin: 100px 0px;
+}
+
+.main_post .container-2 {
+  display: flow-root;
+  margin: 50px auto;
+}
+
+.container-2 h4 {
+  margin: 25px 0px;
+  font-family: "Ubuntu", sans-serif;
+  color: #626262;
+  font-weight: lighter;
+}
+.container-2 p,
+.container-2 h1 {
+  margin-bottom: 30px;
+  font-family: "Playfair Display", serif;
+}
+
+/* sub-post section CSS here */
+
+.sub_posts {
+  display: flow-root;
+}
+
+.sub_post1 {
+  float: left;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.sub_post2 {
+  float: right;
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.extra1 {
+  padding-right: 20px;
+}
+
+.extra2 {
+  padding-left: 20px;
+}
+
+/* newsletter css starts here */
+.newsletter {
+  font-family: "Playfair Display", serif;
+  background: #f0f0f0;
+}
+form {
+  text-align: center;
+}
+
+form h1 {
+  margin: 50px 0px;
+}
+form input {
+  width: 30%;
+  padding: 20px 0px;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  margin-bottom: 50px;
+}
+
+.sub_posts_secondary {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sub_posts_secondary button {
+  margin: auto;
+
+  padding: 20px 30px;
+  border: 1px solid black;
+  font-family: "Playfair Display", serif;
+  background: transparent;
+}
+
+/* footer CSS */
+footer {
+  background: #f0f0f0;
+  color: #626262 !important;
+}
+.terms {
+  margin: 50px 0px;
+  float: left;
+}
+.follow {
+  margin: 50px 0px;
+  float: right;
+}
+.terms ul li {
+  margin-left: 40px;
+  list-style: none;
+
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+}
+
+.follow ul li {
+  margin-left: 20px;
+  list-style: none;
+
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+}
